@@ -1,5 +1,6 @@
 import tkinter as tk
 class My_window:
+
     def __init__(self,n):
         self.n=n
     def show_window(self):

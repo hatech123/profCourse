@@ -7,6 +7,7 @@ def show_video():
        cv2.imshow('frame',frame)
     cv2.waitKey(1)
 # show_video()
+
 def show_window():
     w=['win1','win2','win3']
     n=len(w)

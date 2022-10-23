@@ -26,12 +26,14 @@ def hello_world(a):
     print("Hello World!",c)
 hello_world()
 
+
 @decorator_func
 def summa(a):
     b=50
     c=a+b
     print("сумма",c)
 summa()
+
 
 @decorator_func
 def mult(a):
